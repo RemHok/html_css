@@ -4,7 +4,7 @@ https://github.com/lifehack-2023/html_css_intro/blob/main/css/lifehack.css
 Make klasses for styling instead of ID's. Push to repository and upload to Github (Omega training)
 
 
-asd
+
 --->
 
 
@@ -14,22 +14,25 @@ asd
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout</title>
-    <link rel="stylesheet" href=.
+    <link rel="stylesheet" href="/css/style.css"
 </head>
-<body class="background">
-    <div id="container" class="border">
-        <div id="header" class="border">Header</div>
-        <div id="main" class="border margin-10">
-            <div id="sidebar" class="border padding-5">
+<body class="background-color">
+    <div class=" container-fl-column border">
+        <div class="font-size-x_large text-center border">Header</div>
+        <div class="main-fl-row border margin-10">
+            <div class="sidebar-fl_gr_1 border padding-5">
                 <ul>
-                    <li> Home</li>
-                    <li> Home</li>
-                    <li> Home</li>
-                    <li> Home</li>
+                    <li>List</li>
+                    <li>List</li>
+                    <li>List</li>
+                    <li>List</li>
                 </ul>
             </div>
-            <div id="content" class="border padding-5">
-
+            <div class="content-fl_gr_5 border padding-5">
+                <!--- just trying to embed the external form.html doc. 
+                    see https://www.w3schools.com/tags/tag_iframe.ASP and
+                    https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#srcdoc --->
+                    <iframe type="text/html" srcdoc="/html/form.html" class="border"></iframe>
             </div>
         </div>
     </div>

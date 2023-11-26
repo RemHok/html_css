@@ -1,30 +1,73 @@
-<style>
-        .background{
-            background-color: red
-        }
-        .border{
-            border: 1px #e2e2e2 solid;
-        }
-        .margin-10{
-            margin: 10px;
-        }
-        .padding-5{
-            padding: 5px;
-        }
-        #container{
-            display: flex;
-            flex-direction: column;
-        }
-        #main{
-            display: flex;
-            flex-direction: row;
-        }
-        #sidebar{
-            flex-grow: 1;
-        }
+/*
+https://www.realtimecolors.com/?colors=110604-f3e8e7-eaa499-f3cac4-c23d29&fonts=Poppins-Poppins
+$text: #110604;
+$background: #f3e8e7;
+$primary: #eaa499;
+$secondary: #f3cac4;
+$accent: #c23d29;
+*/
 
-        #content{
-            flex-grow: 5;
-            height: 700px;
-        }
-    </style>
+/* colors */
+.background-color{
+    background-color: #fbf0ee;
+}
+
+/* text-stylings */
+.font-size-x_large{
+    font-size: x-large
+}
+.text-center{
+    text-align: center;
+}
+
+/* borders */
+.noborder{
+    border: none;
+}
+.border{
+    border: 1px #ff9090 solid;
+}
+
+/* margins */
+.margin-5{
+    margin: 5px;
+}
+.margin-10{
+    margin: 10px;
+}
+
+
+/* paddings */
+.padding-5{
+    padding: 5px;
+}
+
+/* containers */
+.container-fl-column{
+    display: flex;
+    flex-direction: column;
+}
+
+/* buttons */
+.button {
+border: none;
+color: #cb371c;
+padding: 10px 20px;
+
+}
+.button-blue{
+
+}
+
+/* currently uncategorized */
+.main-fl-row{
+    display: flex;
+    flex-direction: row;
+}
+.sidebar-fl_gr_1{
+    flex-grow: 1;
+}
+.content-fl_gr_5{
+    flex-grow: 5;
+    height: 700px;
+}
